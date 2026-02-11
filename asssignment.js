@@ -6,5 +6,6 @@ for (let i = 0; i < fruits.length; i++) {
 let a = 1
 let b = 2
 let c = 3
-let sum = a + b + c
+let d = 4
+let sum = a + b + c + d
 console.log(sum)
