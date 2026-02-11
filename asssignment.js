@@ -5,4 +5,5 @@ for (let i = 0; i < fruits.length; i++) {
 }
 let a = 1
 let b = 2
-console.log(a + b)
+let sum = a + b
+console.log(sum)
