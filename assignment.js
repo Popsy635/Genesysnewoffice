@@ -6,4 +6,6 @@
         }
     }
 console.log(count)
-  
+  // 
+  let word = "hello joey"
+  console.log(word)
