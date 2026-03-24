@@ -175,3 +175,5 @@ for (let price of prices) {
     totalPrice += price;
 }
 console.log('Total price:', totalPrice);
+
+console.log('Make a change and commit to GitHub');
