@@ -177,3 +177,24 @@ for (let price of prices) {
 console.log('Total price:', totalPrice);
 
 console.log('Make a change and commit to GitHub');
+
+
+
+function greet(name = 'Customer') {
+    return 'Hello, ' + name + '! Your food is ready.';
+}
+
+console.log(greet( 'Ebuka'));
+
+
+function sendMessage(name, age) {
+    if (age < 13) {
+        message = 'Hi ' + name + ', You are a child';
+    } else if (age >= 13 && age < 18) {
+        message = 'Hi ' + name + ', You are a teenager';
+    } else {
+        message = 'Hi ' + name + ', You are an adult';
+    }
+    return message;
+}
+console.log(sendMessage( 'Ebuka', 25));
